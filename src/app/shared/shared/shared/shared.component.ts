@@ -1,3 +1,11 @@
+/**
+ * Component that renders the lazy loaded sections in the page
+ * Last loaded section is obtained through LoadCheckService
+ * Initially header component is loaded and once it is rendered, subsequent components are loaded.
+ * If lazy loading to be done with routing, remove all code in ngOnInit() and ngDoCheck()
+ * and remove all viewChild
+ */
+
 import { Component, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { LoadCheckService } from 'src/app/services/load-check.service';
 
@@ -28,6 +36,7 @@ export class SharedComponent implements OnInit {
   constructor(public LoadCheckService: LoadCheckService) { }
 
   ngOnInit(): void {
+    
   }
   ngAfterViewInit() {
     import('../../../components/header/header.component').then((comp) => {

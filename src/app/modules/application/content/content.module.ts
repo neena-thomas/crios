@@ -11,4 +11,4 @@ import { ContentRoutingModule } from './content-routing.module';
   ],
   exports: []
 })
-export class Content1Module { }
+export class ContentModule { }
