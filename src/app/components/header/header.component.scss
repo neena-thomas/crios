@@ -5,13 +5,13 @@
 }
 
 .header {
-    height: 30vh;
+    height: 170px;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
 .mar-top {
-    margin-top: 5vh;
+    margin-top: 20px;
 }
 
 .circle-small {
@@ -57,11 +57,7 @@
 /*Mobile devices*/
 @media screen and (min-width: 320px) {
     .header {
-        height: 15vh;
-    }
-
-    .mar-top {
-        margin-top: 2vh;
+        height: 100px;
     }
 
     .main-header {
@@ -86,11 +82,7 @@
 /*Tablets, iPad and small screens*/
 @media screen and (min-width: 600px) {
     .header {
-        height: 20vh;
-    }
-
-    .mar-top {
-        margin-top: 3vh;
+        height: 130px;
     }
 
     .main-header {
@@ -115,11 +107,7 @@
 /*Desktops, laptops*/
 @media screen and (min-width: 1024px) {
     .header {
-        height: 30vh;
-    }
-
-    .mar-top {
-        margin-top: 5vh;
+        height: 170px;
     }
 
     .main-header {
@@ -141,11 +129,7 @@
 /* Large Screens*/
 @media screen and (min-width: 1281) {
     .header {
-        height: 15vh;
-    }
-
-    .mar-top {
-        margin-top: 2vh;
+        height: 170px;
     }
 
     .main-header {
