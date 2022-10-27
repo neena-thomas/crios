@@ -8,7 +8,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal" *ngIf="isModalOpen" >
+<div class="modal"  [hidden]="!isModalOpen">
   <div class="content">
     <div class="logo-container"></div>
     <p class="content1">Thanks for downloading our template</p>
@@ -19,4 +19,4 @@
   </div>
 
 </div>
-<div class="modal-backdrop" *ngIf="isModalOpen" (click)="closeModal()"></div>
+<div class="modal-backdrop" [hidden]="!isModalOpen" (click)="closeModal()"></div>
